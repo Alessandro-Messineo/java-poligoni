@@ -4,18 +4,16 @@ public abstract class AbstractPoligono {
 
     private String nome;
 
-    public AbstractPoligono(String nome){
+    public AbstractPoligono(String nome) {
         this.nome = nome;
     }
 
-    public String getNome(){
+    public String getNome() {
         return nome;
     }
 
-    public abstract int calcolaArea();
+    public abstract double calcolaArea();
 
-    public abstract int calcolaPerimetro();
-
-    
+    public abstract double calcolaPerimetro();
 
 }
