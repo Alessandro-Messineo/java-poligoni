@@ -16,4 +16,9 @@ public abstract class AbstractPoligono {
 
     public abstract double calcolaPerimetro();
 
+    @Override
+    public String toString(){
+        return "Nome: " + nome + "\nArea: " + calcolaArea() + "\nPerimetro: " + calcolaPerimetro();
+    }
+
 }
